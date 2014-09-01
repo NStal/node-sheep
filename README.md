@@ -16,9 +16,10 @@ echo 1 2 3 4 5 | sheep "
      }).map(function(item){
          return parseInt(item)+2;
      });
-     put(numbers.join(' '))
-     
+     put(numbers.join(':'))
 "
+   
+# 3:4:5:6:7  
 ```
 
 All stdin has been buffered into var ```input```. var ```put``` is the alias to console.log.
