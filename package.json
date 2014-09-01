@@ -1,6 +1,6 @@
 {
     "name": "node-sheep",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "shell util that bind nodejs and shell togather",
     "main": "index.js",
     "scripts": {
